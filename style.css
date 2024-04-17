@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(#4D02B5,#B00C98,  #710A93);
+    width: 90%;
+    height: 50%; 
+}
+
+html{
+    font-family: sans-serif;
+    color: white;
+
+}
+
+h1{
+    text-indent: 1.8rem;
+    color: white;
+}
+
+h2{
+    text-indent: 1.4rem;
+    color: white;
+}
+
+h3{
+    text-indent: 1.2rem;
+    color: white;
+}
+
+p{ 
+    text-indent: 1em;
+    color: white;  
+}
+
+a{
+    color: orange; 
+}
+
+section{
+    text-indent: right;
+    line-height: 1.5;
+}
+
+abbr{
+    font-family: small-caps; 
+}
