@@ -13,11 +13,14 @@ html{
 h1{
     text-indent: 1.8rem;
     color: white;
+    display: inline-block;
+    padding: 1em;
 }
 
 h2{
     text-indent: 1.4rem;
     color: white;
+    display: inline-block;
 }
 
 h3{
@@ -34,11 +37,66 @@ a{
     color: orange; 
 }
 
-section{
+.intro{
     text-indent: right;
-    line-height: 1.5;
+    line-height: 1.5;   
+    height: 550px;
 }
 
 abbr{
     font-family: small-caps; 
+}
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+}
+
+#design-archives{
+    display: none; 
+}
+
+header{
+    background-color: black; 
+    color: white; 
+
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+footer{
+    margin: 4%; 
+}
+
+footer a {
+    margin: 5%;
+    border: 2px solid; 
+    padding: 0.5em;  
+}
+
+.page-wrapper{
+    position: relative; 
+}
+
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+}
+
+.design-selection{
+    position: absolute; 
+    top: 545px; 
+    left: 70%; 
+    padding-right: 2%; 
+    padding-left: 2%; 
+
 }
