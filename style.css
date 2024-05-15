@@ -159,7 +159,7 @@ footer a {
 }
 
 .participation h3 {
-    width: 40%;
+    width:50%;
     flex-grow: 1;
     justify-content: center;
     align-items: center; 
@@ -175,7 +175,7 @@ footer a {
     border-left: 2px #710A93 solid;
     border-right: 2px #710A93 solid;                                
     p{
-        width: 40%;
+        width: 50%;
         flex-grow: 1;
     }
     
