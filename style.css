@@ -26,6 +26,7 @@ h2{
 h3{
     text-indent: 1.2rem;
     color: white;
+    align-self: center;
 }
 
 p{ 
@@ -86,7 +87,7 @@ footer{
    
 }
 
-footer a {
+.main footer a {
     margin: 5%;
     border: 2px solid; 
     padding: 0.5em;  
@@ -159,7 +160,7 @@ footer a {
 }
 
 .participation h3 {
-    width:50%;
+    width: 1 1 auto 50%;
     flex-grow: 1;
     justify-content: center;
     align-items: center; 
