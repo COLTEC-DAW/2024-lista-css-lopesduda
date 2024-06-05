@@ -180,4 +180,38 @@ footer{
         flex-grow: 1;
     }
     
+
+}
+
+@media screen and (max-width: 768px){
+   .design-selection{
+    position: static; 
+   }
+   .explanation{
+    border-right: none;
+   }
+   .participation{
+    flex-flow: column;
+   }
+   .intro{
+    height: auto;
+   }
+
+   .h1, h2, h3{
+    text-indent: none;
+   }
+
+}
+
+@media print {
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .banner{
+        background-color: white;
+        color: black;
+
+    }
+
 }
